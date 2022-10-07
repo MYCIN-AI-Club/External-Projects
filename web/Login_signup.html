@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Ecommerce | Loginpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            background-color: rgba(188, 235, 238, 0.733);
+        }
+
+        .impcont {
+            display: flex;
+            margin-top: 130px;
+            width: 100%;
+            height: auto;
+        }
+
+        .impcont .login {
+            background-color: white;
+            box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+            margin-top: 50px;
+            width: 50%;
+            height: auto;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 5px;
+            
+        }
+
+        .impcont .signup {
+            background-color: white;
+            width: 50%;
+            margin-top: 50px;
+            height: auto;
+            box-shadow: 0px 3px 60px 0px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            text-align: center;
+            margin-right: 5px;
+        }
+        input{
+            border: 2px solid black;
+            margin: 10px;
+        }
+        .impcont .btn {
+            margin-top: 30px;
+            margin-left: 40px;
+            margin-bottom: 30px;
+
+        }
+
+        .impcont .btn a {
+            color: rgb(13, 100, 78);
+            text-decoration: none;
+            margin: 30px;
+            padding: 15px 20px;
+            background-color: rgb(255, 255, 255);
+            font-family: cosmic, sans-serif;
+            text-align: center;
+            border: 3px solid rgb(13, 100, 78);
+            border-radius: 40px;
+            font-weight: bold;
+
+        }
+
+       .impcont .btn a:hover {
+            background-color: rgba(10, 92, 75, 0.685);
+            color: rgb(255, 255, 255);
+            border: none;
+           
+            transition: all 0.5s ease;
+
+        }
+        a{
+            text-decoration: none;
+        }
+
+        footer{
+            padding-bottom: 150px;
+            margin-bottom: 0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="Homepage.html"><img src="images&video/logo.png" height="110px" width="120px"></a>
+        </div>
+        <div class="nav_side">
+            <a href="Aboutus.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="Login_signup.html">Login/Sign Up <i class="fas fa-user"></i></a>
+        </div>
+        </nav>
+    
+    <div class="impcont">
+        <div class="signup">
+            <h2>New User? Sign Up Now!</h2>
+            <br>
+            <input type="text" id="name" name="Uname" placeholder=" Name" style="height: 30px; width: 400px;">
+            <br>
+            <br>
+            <input type="email" id="email" name="mail" placeholder="Email" style="height: 30px; width: 400px;">
+            <br>
+            <br>
+            <input type="password" id="Password" name="Pass" placeholder="Password" style="height: 30px; width: 400px;">
+            <br>
+            <br>
+            <input type="password" id="CPassword" name="CPassword" placeholder="Confirm Password" style="height: 30px; width: 400px;">
+            <br>
+            <br>
+            <input type="number" id="phone" name="phoneno." placeholder="Phone No." style="height: 30px; width: 400px;">
+            <br>
+            <br>
+            <input type="checkbox">By clicking on Sign Up you agree to our <a href="">Terms And Conditions.</a>
+            <br>
+            <br>
+            <div class="btn">
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+        <div class="login">
+            <h2>Existing User? Login!</h2>
+                <br>
+                <br>
+            <input type="email" id="email" name="Email" placeholder="Email" style="height: 30px; width: 400px;">
+            <br>
+            <br>
+            <br>
+            <input type="password" id="Password" name="Password" placeholder=" Password" style="height: 30px; width: 400px;">
+            <br><a href="">Forgot Password?</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="btn">
+                <a href="#"><i class="fab fa-facebook" style= 'font-size:24px'></i> Login with Facebook</a>
+            </div>
+            <br>
+            <div class="btn">
+                <a href="#"><i class="fab fa-google" style= 'font-size:24px'></i> Login with Google</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function validation(){
+            var username=document.getElementById('name').value;
+            var email=document.getElementById('email').value;
+            
+            var usercheck= /^[A-Za-z]{3,30}$/;
+            var emailcheck=/^[A-Za-z0-9_.]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/;
+            
+            if(usercheck.test(username)){
+         document.getElementById('errorname').innerHTML="";
+        
+            }
+            else{
+                document.getElementById('errorname').innerHTML="Invalid Name";
+                return false;
+            }
+        
+            if(emailcheck.test(email)){
+                document.getElementById('errormail').innerHTML="";
+        
+            }
+            else{
+                document.getElementById('errormail').innerHTML="Invalid Email";
+                return false;
+            }
+        }
+        
+        </script>
+    <footer>
+        <div class="foot_log">
+            <a href="proj-1_basic_web.htmlsssss"><img src="images&video/logo.png" height="110px" width="120px"></a>
+        </div>
+        <div class="pages">
+            <h3>Pages</h3>
+            <a href="Aboutus.html">About Us</a>|
+            <a href="Services.html">Services</a>|
+            <a href="blogs.html">Blogs</a>|
+            <a href="Login_signup.html">Login</a>|
+            <a href="Login_signup.html">Sign Up</a>
+        </div>
+        <div class="docs">
+            <h3>Documents</h3>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+            <a href="">Refund Policy</a>
+        </div>
+        <div class="social">
+            <h3>Follow Us</h3>
+            <a href="https://www.facebook.com/Lavish-decor-381293115574049/" target="_blank"><i
+                    class="fab fa-facebook-f" style='font-size:30px'></i></a>
+            <a href="https://twitter.com/lavish_interior?lang=en" target="_blank"><i class="fab fa-twitter"
+                    style='font-size:30px'></i></a>
+            <a href="https://www.instagram.com/lavish_interior_decor/?hl=en" target="_blank"><i class="fab fa-instagram"
+                    style='font-size:30px'></i></a>
+            <a href="https://www.linkedin.com/in/lavish-decor-home-furnishing-4021709/" target="_blank"><i
+                    class="fab fa-linkedin-in" style='font-size:30px'></i></a>
+        </div>
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <a href="tel:+913857346592"><i class="fas fa-phone-alt" style='font-size:30px'></i></a>
+            <a href="http://api.Whatsapp.com/send?phone=+918234567895" target="_blank"><i class="fab fa-whatsapp"
+                    style='font-size:30px'></i></a>
+            <a href="mailto:supportlavish@decor.ai"><i class="fas fa-envelope" style='font-size:30px'></i></a>
+        </div>
+        <div class="payment">
+            <h3>Payment Modes</h3>
+            <a href="https://www.visa.co.in/" target="_blank"><i class="fab fa-cc-visa" style='font-size:30px'></i></a>
+            <a href="https://developer.mastercard.com/" target="_blank"><i class="fab fa-cc-mastercard" style='font-size:30px'></i></a>
+            <a href="https://pay.google.com/" target="_blank"><i class="fab fa-google-pay" style='font-size:30px'></i></a>
+            <a href="https://bitpay.com/" target="_blank"><i class="fab fa-bitcoin" style='font-size:30px'></i></a>
+        </div>
+        <hr>
+        <p>Copyright &copy; 2021 Lavish Decor.All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
