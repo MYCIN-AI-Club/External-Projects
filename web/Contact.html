@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+    <title>E-commerce | Contact Us</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <nav class="nav nav_top">
+        <div class="logo">
+            <a href="proj-1_basic_web.html"><img src="images&video/logo.png" height="110px" width="120px"></a>
+        </div>
+        <div class="nav_side">
+            <a href="Aboutus.html">About Us</a>
+            <a href="Services.html">Services</a>
+            <a href="blogs.html">Blogs</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="Login_signup.html">Login/Sign Up <i class="fas fa-user"></i></a>
+        </div>
+        </nav>
+        <div class="contact_container">
+            <h2>Contact Us</h2>
+            <div class="g_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28021.865286813336!2d77
+                .03592538448675!3d28.607780875346524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d052b2af753db%3A0x1c610cbd73e2b305!
+                2sLavish%20Decor%20%2C%20Interior%20Designers%20In%20Delhi!5e0!3m2!1sen!2sin!4v1628489644306!5m2!1sen!2sin" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="contact_content">
+                <p  style="color :teal;" ><b>Address:Delhi,India</b></p>
+                <p style="color :teal;"><b>Call:+914756392743</b></p>
+                <p style="color :teal;"><b>Mail:support@lavishdecor.ai</b></p>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="foot_log">
+                <a href="proj-1_basic_web.htmlsssss"><img src="images&video/logo.png" height="110px" width="120px"></a>
+            </div>
+            <div class="pages">
+                <h3>Pages</h3>
+                <a href="Aboutus.html">About Us</a>|
+                <a href="Services.html">Services</a>|
+                <a href="blogs.html">Blogs</a>|
+                <a href="Login_signup.html">Login</a>|
+                <a href="Login_signup.html">Sign Up</a>
+            </div>
+            <div class="docs">
+                <h3>Documents</h3>
+                <a href="">Privacy Policy</a>
+                <a href="">Terms of Use</a>
+                <a href="">Refund Policy</a>
+            </div>
+            <div class="social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/Lavish-decor-381293115574049/" target="_blank"><i
+                        class="fab fa-facebook-f" style='font-size:30px'></i></a>
+                <a href="https://twitter.com/lavish_interior?lang=en" target="_blank"><i class="fab fa-twitter"
+                        style='font-size:30px'></i></a>
+                <a href="https://www.instagram.com/lavish_interior_decor/?hl=en" target="_blank"><i class="fab fa-instagram"
+                        style='font-size:30px'></i></a>
+                <a href="https://www.linkedin.com/in/lavish-decor-home-furnishing-4021709/" target="_blank"><i
+                        class="fab fa-linkedin-in" style='font-size:30px'></i></a>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <a href="tel:+913857346592"><i class="fas fa-phone-alt" style='font-size:30px'></i></a>
+                <a href="http://api.Whatsapp.com/send?phone=+918234567895" target="_blank"><i class="fab fa-whatsapp"
+                        style='font-size:30px'></i></a>
+                <a href="mailto:supportlavish@decor.ai"><i class="fas fa-envelope" style='font-size:30px'></i></a>
+            </div>
+            <div class="payment">
+                <h3>Payment Modes</h3>
+                <a href=""><i class="fab fa-cc-visa" style='font-size:30px'></i></a>
+                <a href=""><i class="fab fa-cc-mastercard" style='font-size:30px'></i></a>
+                <a href=""><i class="fab fa-google-pay" style='font-size:30px'></i></a>
+                <a href=""><i class="fab fa-bitcoin" style='font-size:30px'></i></a>
+            </div>
+            <hr>
+            <p>Copyright &copy; 2021 Lavish Decor.All Rights Reserved</p>
+        </footer>
+        <script type="text/javascript">
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxEgjHY3LBvCASnMwRA6EbLPDrOCuANH9j6YPtXJ7hzD7LQrNeqnskTcwiXJqg95NIHlg/exec'
+            const form = document.forms['Review_googlesheet']
+    
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => alert("Thanks for your Review. Hope you had great shopping experience"))
+                    .catch(error => console.error('Error!', error.message))
+            })
+    </script>
+</body>
+
+</html>
