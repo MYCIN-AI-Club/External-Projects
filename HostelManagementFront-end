@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            text-align: center;
+        }
+        .boxing{
+            border-radius: 5px;
+            background-color: #B6D0E2;
+            padding: 80px;
+            margin-top: 5%;
+            margin-left: 30%;
+            margin-right: 30%;
+        }
+        img{
+            background-color: rgb(84, 84, 243);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 2%;
+        }
+        .button1{
+            
+  background-color: #309fea;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <img src="logo.png" alt="Logo">
+    <h1>HOSTEL MANAGEMENT</h1>
+    <div class="boxing">
+        <h2>Please select an option:</h2>
+        <button class="button1" type="button" onclick="window.location.href='html2.html';">ENTRY</button>
+        <button class="button1" type="button" onclick="window.location.href='html1.html';">EXIT</button>
+    </div>
+</body>
+</html>
