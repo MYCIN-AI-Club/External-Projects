@@ -442,11 +442,14 @@
     background-color: rgb(102, 233, 220);
     color: black;
     border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
 }
 
 .feed .feed_form form button:hover {
     background-color: white;
     color: teal;
+    opacity: 0.7;
 }
 
 .about_us {
