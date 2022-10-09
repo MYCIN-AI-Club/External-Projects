@@ -52,6 +52,10 @@ let words = [
         hint: "Called as blue planet"
     },
     {
+        word: "sun",
+        hint: "known as the biggest star"
+    },
+    {
         word: "solar",
         hint: "Sun is the center of this system"
     }]
