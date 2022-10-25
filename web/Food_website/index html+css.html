@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant:loving it</title>
+  <style>
+    * {
+      font-family: cursive;
+      margin: 0%;
+      padding: 0ch;
+    }
+
+    .main {
+      width: 100%;
+      height: 100vh;
+      /* background-image: url(image/bg1.jpg); */
+    }
+
+    .navbar {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .nav2 {
+      background-image: url(image/bg2.jpg);
+      border: rgb(255, 255, 255) 2px solid;
+      border-radius: 10px;
+      height: 4rem;
+      width: 97%;
+      display: flex;
+      justify-content: flex-end;
+      background-color: #2517318c;
+    }
+
+    .nav2 ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      padding: 1rem;
+    }
+
+    .nav2 li {
+      color: white;
+      padding: 0 1.5rem 0.4rem 1.5rem;
+    }
+
+    .disp {
+      background: url(image/bg2.jpg);
+      padding-top: 1rem;
+      display: grid;
+      grid-template-columns: repeat(4, auto);
+      grid-gap: 2rem;
+      /* flex-direction: row; */
+      justify-content: center;
+      /* grid-template-columns: repeat(4,auto); */
+
+    }
+
+    .box {
+      color: rgb(240, 206, 206);
+      margin-inline-end: 2rem;
+      border: 4px solid rgba(255, 255, 255, 0.911);
+      border-radius: 23px;
+      background-color: rgb(4, 54, 42);
+      text-align: center;
+      padding-bottom: .3rem;
+    }
+
+    .box img {
+      border-radius: 20px;
+    }
+
+    input[type="text"] {
+      height: 2rem;
+      width: 14rem;
+      padding-left: 4rem;
+    }
+
+ 
+
+    div .background {
+      height: 600px;
+      width: 100%;
+      margin: auto;
+      background: url(image/bg3.jpg) no-repeat;
+      /* background-size: 400px 100%; */
+      /* border: 2px solid black; */
+    }
+
+    div.transbox {
+      text-align: center;
+      height: 600px;
+      background-color: rgba(255, 255, 255, 0.589);
+      opacity: 3;
+      color: rgb(0, 0, 0);
+      font-size: 2rem;
+      padding-top: 3rem;
+    }
+
+    .transbox input[type="button"] {
+      color: white;
+      font-size: 1.7rem;
+      height: 3rem;
+      width: 10em;
+      border: 2px solid whitesmoke;
+      background-image: linear-gradient(rgb(0, 23, 39), rgb(0, 66, 59));
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .offer {
+      background-image: url(image/bg1.jpg);
+      background-repeat: repeat-x;
+      color: rgb(26, 4, 44);
+      font-weight: 700;
+      padding: 2rem;
+      text-align: center;
+      font-size: 2rem;
+      border: 3px double rgb(255, 255, 255);
+      text-decoration: none;
+    }
+
+    input[type="button"] {
+      color: white;
+      font-size: 1rem;
+      height: 2rem;
+      width: 7em;
+      border: 1.6px solid whitesmoke;
+      background-image: linear-gradient(rgb(0, 23, 39), rgb(0, 66, 59));
+      cursor: pointer;
+      border-radius: 20px;
+    }
+
+    .hover:hover,
+    input[type="button"]:hover {
+      background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+      color: black;
+      border: 2px solid black;
+      border-radius: 20px;
+
+    }
+
+    .footer {
+      width :100%;
+      height: 50vh;
+      background-color: rgb(228, 220, 220);
+      display: block;
+      justify-content: center;
+      text-align: center;
+
+    }
+       #id{
+         width: 100em;
+       }
+    td {
+      margin: 0;
+      padding: 2rem 12rem;
+    }
+    .last{
+      text-align: center;
+      display: grid;
+      grid-template-columns: repeat(2,auto);
+    }
+  
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <div class="navbar">
+      <img src="image/logo.jpg" height="69px " width="100px">
+      <div class="nav2">
+        <ul style="padding-right: 20rem;">
+          <li>
+            <input type="text" placeholder="Search your meal">
+          </li>
+        </ul>
+        <ul>
+          <li class="hover">
+            <h3>Location</h3>
+          </li>
+          <li class="hover">
+            <h3>Offer</h3>
+          </li>
+          <li class="hover">
+            <h3>Contact us</h3>
+          </li>
+          <li class="hover">
+            <h3>Log in</h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="background">
+      <div class="transbox">
+        <p>
+        <h1>RESTAURANT</h1><br>
+        50,000+ Orders placed since Lockdown.<br>
+        100% Hyginic and safe.</p>
+        <br><p>*****</p>
+        <P>So What are you waiting for...</P>
+        <p>
+          <br>
+          <input type="button" value="ORDER NOW">
+        </p>
+      </div>
+    </div>
+
+
+    <div class="disp">
+      <div class="box">
+        <img src="image/bu.png" alt="" width="300px" height="140px">
+        <p>
+        <h2>KING COMBO</h2>
+        </p>
+        <p>
+        <h2>Combo <b> @149 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+      <div class="box">
+        <img src="image/pasta.jpg" alt="" width="300px" height="140px">
+        <p>
+        <h2>ITALIAN PASTA</h2>
+        </p>
+        <p>
+        <h2> Starting <b> @99 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+
+      <div class="box">
+        <img src="image/pizza.jpg" alt="" width="300px" height="140px">
+        <p>
+        <h2>PIZZA MANIA</h2>
+        </p>
+        <p>
+        <h2>Starting <b> @99 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+
+      <div class="box">
+        <img src="image/j.jpg" alt="" width="300px" height="140px">
+        <p>
+        <h2>CHINGY CHINESE</h2>
+        </p>
+        <p>
+        <h2>Starting <b> @199 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+      <div class="box">
+        <img src="image/noodle.jpg" alt="" width="300px" height="300px">
+        <p>
+        <h2>HAKKA NOODLES</h2>
+        </p>
+        <p>
+        <h2> Starting <b> @69 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+
+      <div class="box">
+        <img src="image/sh.jpg" alt="" width="300px" height="300px">
+        <p>
+        <h2>MILKSHAKES</h2>
+        </p>
+        <p>
+        <h2>Starting <b> @50 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+
+      <div class="box">
+        <img src="image/juc.jpg" alt="" width="300px" height="300px">
+        <p>
+        <h2>HEALTY JUICES</h2>
+        </p>
+        <p>
+        <h2>Starting <b> @39 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+      <div class="box">
+        <img src="image/cof.jpg" alt="" width="300px" height="300px">
+        <p>
+        <h2>CUTTING COFFEE</h2>
+        </p>
+        <p>
+        <h2>Starting <b> @29 </b>only</h2>
+        </p><br>
+        <input type="button" value="CHECK OUT">
+      </div>
+    </div>
+    <div class="offer">
+      GET UPTO 100% CASHBACK ON <BR>
+      YOUR FIRST ORDER.<br>
+      <a href="#">Sign up </a> now
+    </div>
+    <div class="footer">
+      <div id="yo">
+      <table>
+        <tr>
+          <td>
+            <b>Company</b>
+            <br>About
+            <br>Term and Privacy
+            <br>career
+            <br>Partnership
+            <br>Contributers
+          </td>
+          <td>
+            <b>Product</b>
+            <br>Pricing
+            <br>Download app
+            <br> Whats new
+          </td>
+          <td>
+
+            <b> Learn</b>
+            <br> Blog
+            <br>Gallery
+          </td>
+        </tr>
+      </table>
+      </div>
+      <div class="last">
+      <div class="img"><img src="image/gplay.png" alt="" height="70px" width="300px"></div>
+       <div>  <img src="image/app store.png" alt="" height="70px" width="300px"></div>
+    </div>
+    <br><br>
+    copyright 2010: All right reserved
+  </div>
+</body>
+
+</html>
