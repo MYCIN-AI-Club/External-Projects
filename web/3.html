@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  font-family: Arial;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  width: 100%;
+  background-color: #309fea;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #309fea;
+  align-items: center;
+}
+
+div.container {
+  border-radius: 5px;
+  background-color: #B6D0E2;
+  padding: 20px;
+}
+h2.title{
+    text-align: center;
+    text-shadow: #ccc;
+}
+</style>
+<body>
+
+<h2 class="title">HOSTEL MANAGEMENT</h2>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="Rollno">Roll Number</label>
+    <input type="text" id="Rollno" name="Rollno" placeholder="Your university roll number ">
+
+    <label for="Hostelid">Hostel ID</label>
+    <input type="text" id="Hostelid" name="Hostelid" placeholder="Your hostel ID">
+    <label for="psw">Password</label>
+    <input type="password" id ="password" name="password" placeholder="Enter Password" >
+    <label for="currentDate">Current Date</label>
+<input type="text" id="currentDate" readonly>
+
+<script>
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  document.getElementById("currentDate").value = date;
+</script>
+<!-- Current Time -->
+<label for="currentTime">Current Time</label>
+<input type="text" id="currentTime" readonly>
+<script>
+    var today = new Date();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    document.getElementById("currentTime").value = time;
+</script>
+
+
+
+   
+  
+    <input type="submit" value="Entered">
+  </form>
+</div>
+
+</body>
+</html>

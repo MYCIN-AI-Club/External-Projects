@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <script>
+            function Add(){
+                num1=parseInt(document.getElementById("firstnumber").value);
+                num2=parseInt(document.getElementById("secandnumber").value);
+                
+                document.getElementById("Result").innerHTML=num1+num2;
+            }
+            function sub(){
+                num1=document.getElementById("firstnumber").value;
+                num2=document.getElementById("secandnumber").value;
+               
+                document.getElementById("Result").innerHTML=num1-num2;
+            }
+            function mul(){
+                num1=document.getElementById("firstnumber").value;
+                num2=document.getElementById("secandnumber").value;
+                var mul=num1*num2;
+                document.getElementById("Result").innerHTML=num1*num2;
+            }
+            function div(){
+                num1=document.getElementById("firstnumber").value;
+                num2=document.getElementById("secandnumber").value;
+                var div=num1/num2;
+                document.getElementById("Result").innerHTML=num1/num2;
+            }
+        </script>
+    </head>
+    <body>
+        <p>Calculator - addition ,subtraction,multiplication,division</p>
+        <form>
+         First number:<input type="text" id="firstnumber"/><br>
+         <br>
+         Secand number:<input type="text" id="secandnumber" /><br>
+         <input type="button" onClick="Add()" Value="Addition"/>
+         <input type="button" onClick="sub()" Value="Subtraction"/>
+         <input type="button" onClick="mul()" Value="Multiplication"/>
+         <input type="button" onClick="div()" Value="Division"/>
+         <p>The Result is :
+            <span id="Result"></span>
+         </p>
+         
+
+
+        </form>
+    </body>
+</html> 
