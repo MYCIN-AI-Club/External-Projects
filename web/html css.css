@@ -1,0 +1,34 @@
+body{    
+    font-family: Calibri;  
+    text-align: center;
+    background-image: url("https://img.freepik.com/free-photo/dark-abstract-background-with-neon-circle-center_129911-13.jpg?w=1060");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}    
+input[type="text"] {    
+    width: 250px;    
+}    
+input[type="submit"], input[type="reset"] {    
+    width: 77px;    
+    height: 27px;    
+    position: relative;left: 180px;    
+}    
+form {    
+    text-align: center;    
+    font-family: Calibri;    
+    font-size: 20px;    
+    border: 3px solid black;    
+    width: 600px;    
+    margin: 20px auto;    
+}    
+td {    
+    padding: 10px;    
+}    
+td:first-child {    
+    text-align: right;    
+    font-weight: bold;    
+}    
+td:last-child {    
+    text-align: left; 
+}   
