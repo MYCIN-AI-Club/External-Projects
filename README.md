@@ -5,14 +5,16 @@ We promote students to wish to discover about github and open source. This repos
 #### Maintainer: <a href="github.com/kushagrathisside"><b>KUSHAGRA SRIVASTAVA</b></a>
 ## ML
 ### 1 EDA on flight fare
-      Ml project
+      ML project
       Done EDA on flight fare dataset
       EDA includes - 
         Importing Data
         Data collection
         Data cleaning
+        Univariate Analysis
+        Bivariate Analysis
         Representation of dataset for visualitation
-      Imported training and testing dataset from kaggle 
+        Imported training and testing dataset from kaggle 
 ## Web Development
 ## App Development
 #### Other contributors:
