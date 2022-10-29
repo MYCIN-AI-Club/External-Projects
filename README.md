@@ -6,8 +6,8 @@ We promote students to wish to discover about github and open source. This repos
 ## ML
 ### 1 EDA on flight fare
       ML project
-      Done EDA on flight fare dataset
-      EDA includes - 
+     [Done EDA on flight fare dataset]
+     EDA includes - 
         Importing Data
         Data collection
         Data cleaning
@@ -17,6 +17,8 @@ We promote students to wish to discover about github and open source. This repos
         Imported training and testing dataset from kaggle 
 ## Web Development
 ## App Development
+## Augmented Reality / Virtual Reality
+
 #### Other contributors:
 <a href="https://github.com/MYCIN-AI-Club/External-Projects/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MYCIN-AI-Club/External-Projects" />
