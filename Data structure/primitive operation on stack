@@ -1,0 +1,75 @@
+#include<stdio.h>
+int top=-1;
+void push(int stack[5])
+{
+    int x;
+    printf("Enter items : ");
+    scanf("%d",&x);
+    if(top==5-1)
+    {
+        printf("Overflow");
+    }
+    else
+    {
+        top++;
+        stack[top]=x;
+    }
+}
+void pop(int stack[5])
+{
+    int item;
+    if(top==-1)
+    {
+        printf("Underflow");
+    }
+    else
+    {
+        item = stack[top];
+        top--;
+        printf("%d",item);
+    }
+}
+void display(int stack[5])
+{
+    int i;
+    if(top==-1)
+    {
+        printf("Stack is empty !!");
+    }
+    else
+    {
+        for(i=top;i>=0;i--)
+        {
+            printf("%d\t",stack[i]);
+        }
+    }
+}
+
+int main()
+{
+    int stack[5];
+    int o;
+    printf("Select the operation \n");
+    printf("1.PUSH\n2.POP\n3.DISPLAY\n");
+    scanf("%d",&o);
+    switch(o)
+    {
+        case 1:
+        push(stack);
+        break;
+        
+        case 2:
+        for(int i=0 ; i<5 ;i++)
+        push(stack);
+        pop(stack);
+        break;
+        
+        case 3:
+        for(int i=0 ; i<5 ;i++){
+        push(stack);}
+        display(stack);
+        break;
+    }
+    
+    return 0;
+}
