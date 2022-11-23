@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap" rel="stylesheet">
+    <script src="http://kit.fontawesome.com/f30ac2c61.js"crossorigin="anonymous"></script> 
+
+    <link rel = " stylesheet" href="clone.css">
+
+</head>
+<body>
+    <nav class = "f-nav ">
+        <p> BEUTY BANANZA Get your Daily Dose of Amazing Deals </p>
+        <div class="feature">
+            <div class="app">
+                <p>Get App</p>
+            </div>
+            <div class="app">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <p>Get App</p>
+            </div>
+            <div class="app">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Get App</p>
+                </div>
+                <div class="app">
+                    <i class="fa-solid fa-gift"></i>
+                    <p>Get App</p>
+                    </div>
+                    <div class="app">
+                        <i class="fa-solid fa-circle-question"></i>
+                        <p>Get App</p>
+                    </div>
+            </div>
+    </nav>
+    <nav class="sec-nav">
+        <div class="nykaa-bar">
+            <ul>
+                <li>
+                    <img src="https://logos-download.com/wp-content/uploads/2021/01/Nykaa_Logo.png" alt="">
+                    <a>Catgories </a>
+                    <a>   Brands  </a>
+                    <a>   Luxe  </a>
+                    <a>    Nykaa Fashion </a>
+                    <a> Beauty Advice</a>
+                </li>
+            </ul>
+        </div>
+        <div class= "inputs">
+<input type= "text" placeholder = "Search Naykaa" >
+<button style="text-align: center ;" > Sign In </button>
+        </div>
+    </nav>
+    <div class="item">
+        <ul>
+            <li>
+                <a> Makeup    </a> 
+                <a>        Skin    </a>
+                <a>        Hair</a>
+                <a>      Application</a>
+                <a> Bath & Body</a>
+                <a>Ntural</a>
+                <a> Mom & Baby</a>
+                <a>Health & Wellness</a>
+                <a>Men</a>
+                <a>Fragrance</a>
+                <a>Pop Ups</a>
+                </li>
+                </ul>
+        </div>
+        <div class =  "items1" >
+                <button style="text-align: center ;"> OFFERS</button>
+    </div>
+    <div class=" main-img">
+    <img src="https://images-static.nykaa.com/uploads/1ce27b38-ac2a-4e91-a790-97672cc683cf.jpg?tr=w-1200%2Ccm-pad_resize" alt="">
+</div>
+<div class="pink">
+    <h2>PINK FRIDAY SALE - COMING SOON!</h2>
+    <img src="https://images-static.nykaa.com/uploads/a930a1f4-7e0e-4595-8f72-99b277155d0e.jpg?tr=w-1200%2Ccm-pad_resize"alt=" ">
+</div>
+<div class="card">
+    <img src="https://images-static.nykaa.com/uploads/321e3b5f-811e-42c5-8975-d75ed11c43d3.jpg?tr=w-600%2Ccm-pad_resize "alt="">
+    <img src="https://images-static.nykaa.com/uploads/239f5044-25fc-482a-9945-90962e90af64.jpg?tr=w-600%2Ccm-pad_resize "alt="">
+</div>
+<div class="brand">
+    <h2> TOP BRANDS</h2>
+    <div class="topbrd">
+        <img src="https://images-static.nykaa.com/uploads/b5cdbf6a-4718-45b0-aa68-fe7b47c04fc6.jpg?tr=w-600%2Ccm-pad_resize " alt="">
+    
+    <img src="https://images-static.nykaa.com/uploads/0aec124f-2a1f-4fc5-9962-bcd6d5d1fb83.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+</div>
+</div>
+<div class="only-nykaa">
+    
+    <h2 style="text-align: center ;" > ONLY AT NAYKAA</h2>
+    <div class="only">
+        <img src="https://images-static.nykaa.com/uploads/8900d9c0-5ab0-4659-99f9-1546151d6a3c.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+        <img src="https://images-static.nykaa.com/uploads/008b4a3d-589a-4ac4-80d5-66e7e10c6ade.jpg?tr=w-600%2Ccm-pad_resize" alt="">
+    </div>
+</div>
+<div class="makeup">
+    <img src=" https://images-static.nykaa.com/uploads/4e16dd68-a3c4-49b8-827b-436df563ea5c.jpg?tr=w-300%2Ccm-pad_resize"alt="">
+    <img src=" https://images-static.nykaa.com/uploads/33052185-0758-488b-8048-40e4077e24de.jpg?tr=w-300%2Ccm-pad_resize"alt="">
+    <img src="https://images-static.nykaa.com/uploads/1d7a3689-364c-447c-ad0e-b1ea201e94a6.jpg?tr=w-300%2Ccm-pad_resize "alt="">
+    <img src="https://images-static.nykaa.com/uploads/6751f065-5db9-4be1-9a6d-2303286de1b9.jpg?tr=w-300%2Ccm-pad_resize "alt="">
+</div>
+<div class="special">
+    <h2>Special Curation </h2>
+    <div class="curation">
+        <img src="https://images-static.nykaa.com/uploads/e2bf223b-ba25-4417-833d-8d864cbdd299.jpg?tr=w-600%2Ccm-pad_resize"alt="">
+        <img src="https://images-static.nykaa.com/uploads/b32ddcf1-b431-4819-8eda-05959b32d131.gif?tr=w-600%2Ccm-pad_resize"alt="">
+    </div>
+</div>
+<div class="beauty">
+<h2> BEAUTY ADVICE</h2>
+<div class="advice">
+    <img src="https://images-static.nykaa.com/uploads/e6ae051f-56e7-4079-93e4-b844af6e1d49.jpg?tr=w-600%2Ccm-pad_resize"alt="">
+    <img src="https://images-static.nykaa.com/uploads/d00c3ab0-1fd6-4fa2-9830-1c1df3105dbb.png?tr=w-600%2Ccm-pad_resize"alt="">
+</div>
+</div>
+<div class=  "footer" >    
+<ul>
+    <li>
+        <h2>NAYKAA</h2>
+        <a>Who are we?
+            Careers </a><br>
+        <a>Authenticity </a><br>
+        <a>Press </a><br>
+        <a> Testimonials</a><br>
+        <a> Nykaa CSR
+        </a><br>
+        <a>Responsible Disclosure </a><br>
+        <a>Investor Relations </a><br>
+      
+     </li>
+</ul>
+<ul>
+    <li>
+        <h2>Help</h2>
+        <a>Contact Us</a><br>
+<a>Frequently asked questions</a><br>
+<a>Store Locator</a><br>
+<a>Cancellation & Return</a><br>
+<a>Shipping & Delivery</a><br>
+<a>Sell on Nykaa</a><br>
+
+     </li>
+</ul>
+<ul>
+    <li>
+       
+ <h2>Inspire Me</h2>
+        <a>Beauty Book</a><br>
+            <a>Nykaa TV</a><br>
+                <a>Nykaa Network</a><br>
+                    <a>Buying Guides</a><br>
+     </li>
+</ul>
+<ul>
+    <li>
+       
+ <h2>Quick Links</h2>
+ <a>Offer Zone</a><br>
+ <a>New Launches</a><br>
+    <a> Nykaa Man</a><br>
+        <a>Nykaa Fashion</a><br>
+            <a>Nykaa Pro</a><br>
+                <a> Nykaa femina beauty awards winners 2019</a><br>
+                    <a>Sitemap</a><br>
+     </li>
+</ul>
+<ul>
+    <li>
+       
+ <h2>Top Categories</h2>
+ <a>Makeup</a><br>
+    <a>Skin</a><br>
+        <a>Hair</a><br>
+            <a>Personal Care</a><br>
+                <a>Appliances</a><br>
+                    <a>Mom and Baby</a><br>
+                        <a>Wellness</a><br>
+                            <a>Fragrance</a><br>
+                                <a>Natura</a><br>
+                                    <a>Luxe</a><br>
+
+
+
+ 
+     </li>
+</ul>
+</div>
+</body>
+</html>
+
+* {
+    margin:0%;
+    padding:0%;
+     font-family:'Mukta',sans-serif ;
+}
+.f-nav
+{
+ display:flex;
+ justify-content:center;
+ justify-content:space-around;
+ background-color: rgb(252,155,171);
+ padding:18px;
+}
+.feature{
+    display:flex ;
+}
+.feature.app{
+    display:flex;
+    margin-inline:22px;
+}
+.feature.app{
+    margin-inline:8px;
+    display:flex ;
+}
+.sec-nav{
+    display:flex;
+    justify-content:center;
+    justify-content:space-around;
+    padding:11px;
+}
+
+.sec-nav ul li img{
+    width:8%;
+    margin-left:22px;
+}
+.sec-nav ul li a{
+    margin-inline:22px;
+}
+.sec-nav .input{
+    display:flex;
+}
+.sec-nav.inputs button{
+    margin-inline: 22px; 
+}
+.sec-nav.inputs button{
+    width:220px;
+    background-color:rgb(205,197,197);
+    border:none;
+    outline:none;
+    text-align:center;
+    font-size: 16px;
+}
+.sec-nav.inputs button{
+    width:80px;
+    height:35px;
+    background-color:pink;
+    color:white;
+    font-size: 17px;
+    border:none;
+    border-radius:5px;
+}
+.inputs button{
+    background-color:pink;
+    float  : "right" ;
+
+
+}
+.items{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+    padding:5px;
+}
+.items ul li a{
+list-style:none;
+    margin-inline:22px;
+    text-align:center;
+}
+.items ul li button{
+    width:100px;
+    height:34px;
+    background-color:rgb(249,61,92);
+    color:white;
+    font-size: 17px;
+    border:none;
+    border-radius:5px;
+}
+.items1  button {
+    border-radius:5px;
+    width:100px;
+    height:34px;
+    background-color: pink;
+    text-align : center ;
+    
+}
+.item ul li{
+    list-style:none;
+}
+main-page img{
+    width:100%;
+}
+.pink img{
+    width:100%;
+}
+.pink h2{
+    text-align:center;
+    padding:7px;
+}
+.card h2{
+    text-align:center;
+    justify-content: space-around;
+    margin-top:33px;
+}
+.card img{
+    margin-inline:22px;
+    width:44%;
+}
+.brand h2{
+    text-align:center ;
+    padding: 22px;
+}
+.topbrd{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+}
+.topbrd img{
+margin-inline:22px; 
+width:44%;
+
+}
+.only-naykaa h2{
+   
+    padding: 22px;
+}
+.only-naykaa .only{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+}
+.only img{
+    width:42%;
+    margin-inline :22px;;
+}
+.makeup{
+    display:flex;
+    justify-content:center ;
+    justify-content: space-around;
+    padding:22px;
+}
+.makeup img{
+    width:22%;
+    margin-inline:18px;
+}
+.special h2{
+text-align: center;
+padding:22px;
+}
+.special .  curation{
+    text-align: center;
+    justify-content:center ;
+    justify-content: space-around;
+    }
+    .curation img{
+        margin-inline: 22px;
+        width:44%;
+    }
+    .beauty h2{
+        text-align: center;
+        padding: 22px;
+    }
+    .beauty   .advice{
+        display:flex;
+        justify-content:center ;
+    justify-content: space-around;
+    }
+    .advice img{
+        margin-inline: 22px;
+        width:44%;
+    }
+
+    .footer  {
+        display: flex;
+        justify-content:center ;
+    justify-content: space-around;
+    background-color:rgb(152,147,147) ;
+    }
+    .footer  .list{
+        flex-direction: row;
+    }
+    .footer  .list ul li {
+        list-style:none;
+    }
+    .footer   .list ul li a{
+        font-weight:600;
+        font-size: 13px;
+    }
+.footer    .list ul li a{
+    font-size:18px;
+}
